@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <script src="Js/three.min.js"></script>
+    <script src="Js/controls/PointerLockControls.js"></script>
+    <script src="Js/controls/OrbitControls.js"></script>
+    <script src="Js/util.js"></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Cube</title>
+  </head>
+  <body class="bg-gray-400">
+    <div class="items-center text-xl flex flex-col">
+      <div class="pt-10">
+        <button class="bg-blue-600 rounded-sm px-2 py-1 mb-2" type="button" id="start">Play</button>
+      </div>
+      <div class="space-y-4">
+        <p id="score">Score: </p>
+        <canvas id="bg"></canvas>
+      </div>
+    </div>
+    
+    <script src="Js/main.js"></script>
+  </body>
+</html>
